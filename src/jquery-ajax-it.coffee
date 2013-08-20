@@ -28,7 +28,6 @@
             if($.isFunction(cb))
               cb.apply(form, [false, data])
     
-    
     _getFunction: (path)->
       return if !path
       paths = path.split('/')
